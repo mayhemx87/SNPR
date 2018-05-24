@@ -57,7 +57,7 @@
         <element label="# new FTE" mandatory="true" max_length="40" name="u_num_new_fte" type="integer"/>
         <element label="Other costs" max_length="40" name="u_other_costs" type="integer"/>
         <element label="Primary Application" max_length="32" name="u_primary_application" reference="cmdb_ci_appl" type="reference"/>
-        <element label="Project Narrative" mandatory="true" max_length="65536" name="u_project_narrative" type="html"/>
+        <element hint="The project narrative should include a description of the project, business outcomes, and items that are specifically in-scope or out-of-scope." label="Project Narrative" mandatory="true" max_length="65536" name="u_project_narrative" type="html"/>
         <element label="Requested For" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="new" label="State" mandatory="true" max_length="40" name="u_state" type="string">
             <choice>
