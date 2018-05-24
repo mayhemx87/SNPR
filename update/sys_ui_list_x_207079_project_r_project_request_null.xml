@@ -4,167 +4,137 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_207079_project_r_project_request" element="NULL" name="x_207079_project_r_project_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">897851c14f5613000468f3117310c739</list_id>
+            <list_id display_value="x_207079_project_r_project_request" element="NULL" name="x_207079_project_r_project_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b397d8954f1213000468f3117310c798</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 03:46:39</sys_created_on>
-            <sys_id>017851c14f5613000468f3117310c73a</sys_id>
+            <sys_created_on>2018-05-24 17:41:52</sys_created_on>
+            <sys_id>3b97d8954f1213000468f3117310c798</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-24 03:46:39</sys_updated_on>
+            <sys_updated_on>2018-05-24 17:41:52</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_title</element>
-            <list_id display_value="x_207079_project_r_project_request" element="NULL" name="x_207079_project_r_project_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">897851c14f5613000468f3117310c739</list_id>
+            <list_id display_value="x_207079_project_r_project_request" element="NULL" name="x_207079_project_r_project_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b397d8954f1213000468f3117310c798</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 03:46:39</sys_created_on>
-            <sys_id>817851c14f5613000468f3117310c73a</sys_id>
+            <sys_created_on>2018-05-24 17:41:52</sys_created_on>
+            <sys_id>bb97d8954f1213000468f3117310c798</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-24 03:46:39</sys_updated_on>
+            <sys_updated_on>2018-05-24 17:41:52</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_requested_for</element>
-            <list_id display_value="x_207079_project_r_project_request" element="NULL" name="x_207079_project_r_project_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">897851c14f5613000468f3117310c739</list_id>
+            <list_id display_value="x_207079_project_r_project_request" element="NULL" name="x_207079_project_r_project_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b397d8954f1213000468f3117310c798</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 03:46:39</sys_created_on>
-            <sys_id>057851c14f5613000468f3117310c73a</sys_id>
+            <sys_created_on>2018-05-24 17:41:52</sys_created_on>
+            <sys_id>3f97d8954f1213000468f3117310c798</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-24 03:46:39</sys_updated_on>
+            <sys_updated_on>2018-05-24 17:41:52</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_primary_application</element>
-            <list_id display_value="x_207079_project_r_project_request" element="NULL" name="x_207079_project_r_project_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">897851c14f5613000468f3117310c739</list_id>
+            <list_id display_value="x_207079_project_r_project_request" element="NULL" name="x_207079_project_r_project_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b397d8954f1213000468f3117310c798</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 03:46:39</sys_created_on>
-            <sys_id>857851c14f5613000468f3117310c73a</sys_id>
+            <sys_created_on>2018-05-24 17:41:52</sys_created_on>
+            <sys_id>bf97d8954f1213000468f3117310c798</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-24 03:46:39</sys_updated_on>
+            <sys_updated_on>2018-05-24 17:41:52</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_desired_start_date</element>
-            <list_id display_value="x_207079_project_r_project_request" element="NULL" name="x_207079_project_r_project_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">897851c14f5613000468f3117310c739</list_id>
+            <element>u_state</element>
+            <list_id display_value="x_207079_project_r_project_request" element="NULL" name="x_207079_project_r_project_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b397d8954f1213000468f3117310c798</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 03:46:39</sys_created_on>
-            <sys_id>097851c14f5613000468f3117310c73a</sys_id>
+            <sys_created_on>2018-05-24 17:41:52</sys_created_on>
+            <sys_id>3397d8954f1213000468f3117310c799</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-24 03:46:39</sys_updated_on>
+            <sys_updated_on>2018-05-24 17:41:52</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_target_delivery_date</element>
-            <list_id display_value="x_207079_project_r_project_request" element="NULL" name="x_207079_project_r_project_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">897851c14f5613000468f3117310c739</list_id>
+            <element>u_desired_start_date</element>
+            <list_id display_value="x_207079_project_r_project_request" element="NULL" name="x_207079_project_r_project_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b397d8954f1213000468f3117310c798</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 03:46:39</sys_created_on>
-            <sys_id>897851c14f5613000468f3117310c73a</sys_id>
+            <sys_created_on>2018-05-24 17:41:52</sys_created_on>
+            <sys_id>b397d8954f1213000468f3117310c799</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-24 03:46:39</sys_updated_on>
+            <sys_updated_on>2018-05-24 17:41:52</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_num_delivery_teams</element>
-            <list_id display_value="x_207079_project_r_project_request" element="NULL" name="x_207079_project_r_project_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">897851c14f5613000468f3117310c739</list_id>
+            <element>u_target_delivery_date</element>
+            <list_id display_value="x_207079_project_r_project_request" element="NULL" name="x_207079_project_r_project_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b397d8954f1213000468f3117310c798</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 03:46:39</sys_created_on>
-            <sys_id>0d7851c14f5613000468f3117310c73a</sys_id>
+            <sys_created_on>2018-05-24 17:41:52</sys_created_on>
+            <sys_id>3797d8954f1213000468f3117310c799</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-24 03:46:39</sys_updated_on>
+            <sys_updated_on>2018-05-24 17:41:52</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_num_iterations</element>
-            <list_id display_value="x_207079_project_r_project_request" element="NULL" name="x_207079_project_r_project_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">897851c14f5613000468f3117310c739</list_id>
+            <element>u_num_delivery_teams</element>
+            <list_id display_value="x_207079_project_r_project_request" element="NULL" name="x_207079_project_r_project_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b397d8954f1213000468f3117310c798</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 03:46:39</sys_created_on>
-            <sys_id>8d7851c14f5613000468f3117310c73a</sys_id>
+            <sys_created_on>2018-05-24 17:41:52</sys_created_on>
+            <sys_id>b797d8954f1213000468f3117310c799</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-24 03:46:39</sys_updated_on>
+            <sys_updated_on>2018-05-24 17:41:52</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_num_new_fte</element>
-            <list_id display_value="x_207079_project_r_project_request" element="NULL" name="x_207079_project_r_project_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">897851c14f5613000468f3117310c739</list_id>
+            <element>u_num_iterations</element>
+            <list_id display_value="x_207079_project_r_project_request" element="NULL" name="x_207079_project_r_project_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b397d8954f1213000468f3117310c798</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 03:46:39</sys_created_on>
-            <sys_id>017851c14f5613000468f3117310c73b</sys_id>
+            <sys_created_on>2018-05-24 17:41:52</sys_created_on>
+            <sys_id>3b97d8954f1213000468f3117310c799</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-24 03:46:39</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>u_num_new_contractors</element>
-            <list_id display_value="x_207079_project_r_project_request" element="NULL" name="x_207079_project_r_project_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">897851c14f5613000468f3117310c739</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>9</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 03:46:39</sys_created_on>
-            <sys_id>817851c14f5613000468f3117310c73b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-24 03:46:39</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>u_other_costs</element>
-            <list_id display_value="x_207079_project_r_project_request" element="NULL" name="x_207079_project_r_project_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">897851c14f5613000468f3117310c739</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>10</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 03:46:39</sys_created_on>
-            <sys_id>057851c14f5613000468f3117310c73b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-24 03:46:39</sys_updated_on>
+            <sys_updated_on>2018-05-24 17:41:52</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -178,10 +148,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 03:46:39</sys_created_on>
+            <sys_created_on>2018-05-24 17:41:52</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>897851c14f5613000468f3117310c739</sys_id>
+            <sys_id>b397d8954f1213000468f3117310c798</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_207079_project_r_project_request</sys_name>
             <sys_package display_value="Project Requests" source="x_207079_project_r">c481b0c94fd213000468f3117310c790</sys_package>
@@ -189,7 +159,7 @@
             <sys_scope display_value="Project Requests">c481b0c94fd213000468f3117310c790</sys_scope>
             <sys_update_name>sys_ui_list_x_207079_project_r_project_request_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-24 03:46:39</sys_updated_on>
+            <sys_updated_on>2018-05-24 17:41:52</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

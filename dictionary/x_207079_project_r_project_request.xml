@@ -59,6 +59,15 @@
         <element label="Primary Application" max_length="32" name="u_primary_application" reference="cmdb_ci_appl" type="reference"/>
         <element label="Project Narrative" mandatory="true" max_length="65536" name="u_project_narrative" type="html"/>
         <element label="Requested For" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="new" label="State" mandatory="true" max_length="40" name="u_state" type="string">
+            <choice>
+                <element label="New" sequence="0" value="new"/>
+                <element label="Review" sequence="1" value="review"/>
+                <element label="Approved" sequence="2" value="approved"/>
+                <element label="Rejected" sequence="3" value="rejected"/>
+                <element label="Closed" sequence="4" value="closed"/>
+            </choice>
+        </element>
         <element label="Target Delivery Date" mandatory="true" max_length="40" name="u_target_delivery_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Title" mandatory="true" max_length="120" name="u_title" type="string"/>
         <index name="index">
