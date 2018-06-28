@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_farf2_ent_arch.user" name="x_farf2_ent_arch.user">41a2c5de13be17408e9c7e276144b0c3</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-28 19:52:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>11458564dbc3d700b9877b1cbf961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>41a2c5de13be17408e9c7e276144b0c3</sys_name>
+        <sys_package display_value="Project Requests" source="x_207079_project_r">c481b0c94fd213000468f3117310c790</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Project Requests">c481b0c94fd213000468f3117310c790</sys_scope>
+        <sys_update_name>sys_embedded_help_role_11458564dbc3d700b9877b1cbf961993</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-28 19:52:58</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
