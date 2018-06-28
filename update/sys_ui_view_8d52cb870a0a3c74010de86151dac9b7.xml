@@ -8,13 +8,15 @@
         <sys_class_name>sys_ui_view</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-24 21:49:12</sys_created_on>
-        <sys_id>f23015114f5213000468f3117310c724</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8d52cb870a0a3c74010de86151dac9b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Sys_popup,default</sys_name>
         <sys_package display_value="Project Requests" source="x_207079_project_r">c481b0c94fd213000468f3117310c790</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Project Requests">c481b0c94fd213000468f3117310c790</sys_scope>
-        <sys_update_name>sys_ui_view_f23015114f5213000468f3117310c724</sys_update_name>
+        <sys_update_name>sys_ui_view_8d52cb870a0a3c74010de86151dac9b7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-05-24 21:49:12</sys_updated_on>
         <title>Sys_popup,default</title>

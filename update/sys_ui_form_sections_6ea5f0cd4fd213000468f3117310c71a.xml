@@ -6,7 +6,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-05-24 01:14:39</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>6ea5f0cd4fd213000468f3117310c71c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
@@ -20,7 +19,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-05-24 01:14:39</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>2aa5f0cd4fd213000468f3117310c71d</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
@@ -34,7 +32,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-05-24 01:37:30</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>15ea34814f1613000468f3117310c701</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
@@ -48,7 +45,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-05-24 04:30:10</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>66626d0d4f5613000468f3117310c793</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
@@ -63,14 +59,15 @@
             <sys_class_name>sys_ui_form</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-05-24 01:14:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>6ea5f0cd4fd213000468f3117310c71a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_207079_project_r_project_request</sys_name>
             <sys_overrides/>
             <sys_package display_value="Project Requests" source="x_207079_project_r">c481b0c94fd213000468f3117310c790</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Project Requests">c481b0c94fd213000468f3117310c790</sys_scope>
             <sys_update_name>sys_ui_form_sections_6ea5f0cd4fd213000468f3117310c71a</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
