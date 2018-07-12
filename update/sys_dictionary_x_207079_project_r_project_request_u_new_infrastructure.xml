@@ -26,6 +26,8 @@
         <element>u_new_infrastructure</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>true</mandatory>
         <max_length>40</max_length>
@@ -48,7 +50,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-24 01:37:30</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>04459e0a13e2d7008e9c7e276144b0d8</sys_id>
+        <sys_id>4a1b13e8139f5b4070a035528144b056</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Is new infrastructure (compute, storage, or other) required?</sys_name>
         <sys_package display_value="Project Requests" source="x_207079_project_r">c481b0c94fd213000468f3117310c790</sys_package>
@@ -57,7 +59,7 @@
         <sys_scope display_value="Project Requests">c481b0c94fd213000468f3117310c790</sys_scope>
         <sys_update_name>sys_dictionary_x_207079_project_r_project_request_u_new_infrastructure</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-06-08 21:02:01</sys_updated_on>
+        <sys_updated_on>2018-07-11 17:03:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

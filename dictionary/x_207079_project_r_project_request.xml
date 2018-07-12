@@ -23,14 +23,14 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Will existing infrastructure (compute, storage, etc.) be modified or retired?" mandatory="true" max_length="40" name="u_modify_infrastructure" type="string">
             <choice>
-                <element label="No" sequence="1" value="no"/>
                 <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Will existing software (installations, integrations) be modified or retired?" mandatory="true" max_length="40" name="u_modify_software" type="string">
             <choice>
-                <element label="No" sequence="1" value="no"/>
                 <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Are any new Technologies (Architecture Patterns) being introduced?" mandatory="true" max_length="40" name="u_new_architecture" type="string">
@@ -57,7 +57,7 @@
         <element label="# new FTE" mandatory="true" max_length="40" name="u_num_new_fte" type="integer"/>
         <element label="Other costs" max_length="40" name="u_other_costs" type="integer"/>
         <element label="Primary Application" max_length="32" name="u_primary_application" reference="u_application" type="reference"/>
-        <element hint="The project narrative should include a description of the project, business outcomes, and items that are specifically in-scope or out-of-scope." label="Project Narrative" mandatory="true" max_length="65536" name="u_project_narrative" type="html"/>
+        <element attributes="edge_encryption_enabled=true" label="Project Narrative" mandatory="true" max_length="4000" name="u_project_narrative" type="string"/>
         <element label="Requested For" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="new" label="State" mandatory="true" max_length="40" name="u_state" type="string">
             <choice>

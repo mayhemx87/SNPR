@@ -9,6 +9,7 @@
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_207079_project_r.project_request_admin</name>
+        <scoped_admin>false</scoped_admin>
         <suffix>project_request_admin</suffix>
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>bkolosky</sys_created_by>
