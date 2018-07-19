@@ -75,7 +75,6 @@
         <element attributes="edge_encryption_enabled=true" label="Project Background" mandatory="true" max_length="4000" name="u_project_background" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Project Description" mandatory="true" max_length="4000" name="u_project_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Project Name" mandatory="true" max_length="200" name="u_project_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Project Narrative" mandatory="true" max_length="4000" name="u_project_narrative" type="string"/>
         <element label="Requested For" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="new" label="State" max_length="40" name="u_state" read_only="true" type="string">
             <choice>
