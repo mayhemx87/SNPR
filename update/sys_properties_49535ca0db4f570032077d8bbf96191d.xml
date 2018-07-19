@@ -13,7 +13,7 @@
         <sys_created_on>2018-06-28 16:37:23</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>49535ca0db4f570032077d8bbf96191d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>x_207079_project_r.PSEndpoint</sys_name>
         <sys_package display_value="Project Requests" source="x_207079_project_r">c481b0c94fd213000468f3117310c790</sys_package>
         <sys_policy/>
@@ -21,9 +21,9 @@
         <sys_scope display_value="Project Requests">c481b0c94fd213000468f3117310c790</sys_scope>
         <sys_update_name>sys_properties_49535ca0db4f570032077d8bbf96191d</sys_update_name>
         <sys_updated_by>bkolosky</sys_updated_by>
-        <sys_updated_on>2018-06-28 18:43:45</sys_updated_on>
+        <sys_updated_on>2018-07-19 15:41:35</sys_updated_on>
         <type>string</type>
-        <value>http://project.firstam.net/PWA/_api/ProjectServer</value>
+        <value>http://snavnwebproj001/PWA/default.aspx</value>
         <write_roles>x_207079_project_r.project_request_admin</write_roles>
     </sys_properties>
     <sys_translated_text action="delete_multiple" query="documentkey=49535ca0db4f570032077d8bbf96191d"/>

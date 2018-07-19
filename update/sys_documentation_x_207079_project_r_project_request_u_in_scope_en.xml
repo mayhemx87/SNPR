@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_in_scope" label="In Scope" language="en" table="x_207079_project_r_project_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_in_scope</element>
+            <help/>
+            <hint/>
+            <label>In Scope</label>
+            <language>en</language>
+            <name>x_207079_project_r_project_request</name>
+            <plural>In Scopes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-07-19 15:26:59</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>bdc114d7db5b974032077d8bbf9619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>In Scope</sys_name>
+            <sys_package display_value="Project Requests" source="x_207079_project_r">c481b0c94fd213000468f3117310c790</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Project Requests">c481b0c94fd213000468f3117310c790</sys_scope>
+            <sys_update_name>sys_documentation_x_207079_project_r_project_request_u_in_scope_en</sys_update_name>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-07-19 15:26:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

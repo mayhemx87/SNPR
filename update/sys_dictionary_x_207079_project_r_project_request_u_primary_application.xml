@@ -29,7 +29,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="Reference">reference</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <name>x_207079_project_r_project_request</name>
         <next_element/>
@@ -51,15 +51,15 @@
         <sys_created_on>2018-05-24 01:14:40</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>061b13e8139f5b4070a035528144b05c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Primary Application</sys_name>
         <sys_package display_value="Project Requests" source="x_207079_project_r">c481b0c94fd213000468f3117310c790</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Project Requests">c481b0c94fd213000468f3117310c790</sys_scope>
         <sys_update_name>sys_dictionary_x_207079_project_r_project_request_u_primary_application</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-07-11 17:03:24</sys_updated_on>
+        <sys_updated_by>bkolosky</sys_updated_by>
+        <sys_updated_on>2018-07-19 15:36:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

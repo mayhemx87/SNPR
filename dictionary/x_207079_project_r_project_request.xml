@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Project Request" max_length="40" name="x_207079_project_r_project_request" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Desired Outcomes" mandatory="true" max_length="4000" name="u_desired_outcomes" type="string"/>
         <element label="Desired Start Date" mandatory="true" max_length="40" name="u_desired_start_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Is a dedicated Project Manager required?" mandatory="true" max_length="40" name="u_eq_pm_required" type="string">
             <choice>
@@ -15,6 +16,13 @@
                 <element label="Yes" sequence="0" value="yes"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is the  Business Impact Critical/Large/Time Sensitive?" mandatory="true" max_length="40" name="u_high_business_impact" type="string">
+            <choice>
+                <element label="No" sequence="1" value="no"/>
+                <element label="Yes" sequence="0" value="yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="In Scope" mandatory="true" max_length="4000" name="u_in_scope" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Will existing Technology (Architecture Patterns) be modified or retired?" mandatory="true" max_length="40" name="u_modify_architecture" type="string">
             <choice>
                 <element label="No" sequence="1" value="no"/>
@@ -31,6 +39,12 @@
             <choice>
                 <element label="Yes" sequence="0" value="yes"/>
                 <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is more than one team required (including business teams)?" mandatory="true" max_length="40" name="u_more_than_one_team_required" type="string">
+            <choice>
+                <element label="No" sequence="1" value="no"/>
+                <element label="Yes" sequence="0" value="yes"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Are any new Technologies (Architecture Patterns) being introduced?" mandatory="true" max_length="40" name="u_new_architecture" type="string">
@@ -55,11 +69,15 @@
         <element label="# of Iterations" mandatory="true" max_length="40" name="u_num_iterations" type="integer"/>
         <element label="# new Contractors" mandatory="true" max_length="40" name="u_num_new_contractors" type="integer"/>
         <element label="# new FTE" mandatory="true" max_length="40" name="u_num_new_fte" type="integer"/>
-        <element label="Other costs" max_length="40" name="u_other_costs" type="integer"/>
-        <element label="Primary Application" max_length="32" name="u_primary_application" reference="u_application" type="reference"/>
+        <element default="0" label="Other costs" mandatory="true" max_length="40" name="u_other_costs" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Out of Scope" mandatory="true" max_length="4000" name="u_out_of_scope" type="string"/>
+        <element label="Primary Application" mandatory="true" max_length="32" name="u_primary_application" reference="u_application" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Project Background" mandatory="true" max_length="4000" name="u_project_background" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Project Description" mandatory="true" max_length="4000" name="u_project_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Project Name" mandatory="true" max_length="200" name="u_project_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Project Narrative" mandatory="true" max_length="4000" name="u_project_narrative" type="string"/>
         <element label="Requested For" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="new" label="State" mandatory="true" max_length="40" name="u_state" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="new" label="State" max_length="40" name="u_state" read_only="true" type="string">
             <choice>
                 <element label="Approved" sequence="2" value="approved"/>
                 <element label="Closed" sequence="4" value="closed"/>
@@ -69,7 +87,6 @@
             </choice>
         </element>
         <element label="Target Delivery Date" mandatory="true" max_length="40" name="u_target_delivery_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="Title" mandatory="true" max_length="120" name="u_title" type="string"/>
         <index name="index">
             <element name="u_requested_for"/>
         </index>
