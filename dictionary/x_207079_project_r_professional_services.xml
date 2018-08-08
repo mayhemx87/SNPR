@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Professional Services" max_length="40" name="x_207079_project_r_professional_services" type="collection">
+        <element label="Cost Center" mandatory="true" max_length="32" name="cost_center" reference="cmn_cost_center" type="reference"/>
+        <element label="Duration" mandatory="true" max_length="2" name="duration" type="integer"/>
+        <element label="Hire Rate" mandatory="true" max_length="3" name="hire_rate" type="currency"/>
+        <element choice="1" label="Location" mandatory="true" max_length="40" name="location" type="choice">
+            <choice>
+                <element label="Offshore" sequence="200" value="offshore"/>
+                <element label="Onshore" sequence="100" value="onshore"/>
+            </choice>
+        </element>
+        <element label="Monthly Cost" max_length="4" name="monthly_cost" read_only="true" type="currency"/>
+        <element label="# of Contractors" mandatory="true" max_length="2" name="num_contractors" type="integer"/>
+        <element label="Project Request" max_length="32" name="project_request" read_only="true" reference="x_207079_project_r_project_request" type="reference"/>
+        <element label="Total Cost" max_length="7" name="total_cost" read_only="true" type="currency"/>
+        <index name="index">
+            <element name="cost_center"/>
+        </index>
+        <index name="index2">
+            <element name="project_request"/>
+        </index>
+    </element>
+</database>

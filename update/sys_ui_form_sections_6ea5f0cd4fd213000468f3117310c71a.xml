@@ -23,7 +23,7 @@
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_207079_project_r_project_request" name="x_207079_project_r_project_request" sys_domain="global" view="Default view">6ea5f0cd4fd213000468f3117310c71a</sys_ui_form>
-            <sys_ui_section caption="Project Narrative" display_value="Project Narrative" name="x_207079_project_r_project_request" sys_domain="global" view="Default view">62626d0d4f5613000468f3117310c790</sys_ui_section>
+            <sys_ui_section caption="Project Details" display_value="Project Details" name="x_207079_project_r_project_request" sys_domain="global" view="Default view">62626d0d4f5613000468f3117310c790</sys_ui_section>
             <sys_updated_by>bkolosky</sys_updated_by>
             <sys_updated_on>2018-07-12 19:54:47</sys_updated_on>
         </sys_ui_form_section>
@@ -42,16 +42,16 @@
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 01:14:39</sys_created_on>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-08-08 16:19:57</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_id>2aa5f0cd4fd213000468f3117310c71d</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_id>bcbdd7addbff5700b9877b1cbf9619ee</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_207079_project_r_project_request" name="x_207079_project_r_project_request" sys_domain="global" view="Default view">6ea5f0cd4fd213000468f3117310c71a</sys_ui_form>
-            <sys_ui_section caption="Project Costs" display_value="Project Costs" name="x_207079_project_r_project_request" sys_domain="global" view="Default view">22a5f0cd4fd213000468f3117310c71a</sys_ui_section>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_207079_project_r_project_request" sys_domain="global" view="Default view">f8bd57addbff5700b9877b1cbf9619d3</sys_ui_section>
             <sys_updated_by>bkolosky</sys_updated_by>
-            <sys_updated_on>2018-07-12 19:54:47</sys_updated_on>
+            <sys_updated_on>2018-08-08 16:56:19</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_207079_project_r_project_request</name>

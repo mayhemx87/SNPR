@@ -2,6 +2,7 @@
 <database>
     <element label="Project Request" max_length="40" name="x_207079_project_r_project_request" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Customer Group" mandatory="true" max_length="32" name="u_customer_group" reference="u_customer_group" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Desired Outcomes" mandatory="true" max_length="4000" name="u_desired_outcomes" type="string"/>
         <element label="Desired Start Date" mandatory="true" max_length="40" name="u_desired_start_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Is a dedicated Project Manager required?" mandatory="true" max_length="40" name="u_eq_pm_required" type="string">
@@ -16,7 +17,19 @@
                 <element label="Yes" sequence="0" value="yes"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Fast Track" mandatory="true" max_length="40" name="u_fast_track" type="string">
+            <choice>
+                <element label="No" sequence="1" value="no"/>
+                <element label="Yes" sequence="0" value="yes"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Is the  Business Impact Critical/Large/Time Sensitive?" mandatory="true" max_length="40" name="u_high_business_impact" type="string">
+            <choice>
+                <element label="No" sequence="1" value="no"/>
+                <element label="Yes" sequence="0" value="yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="IA Required" mandatory="true" max_length="40" name="u_ia_required" type="string">
             <choice>
                 <element label="No" sequence="1" value="no"/>
                 <element label="Yes" sequence="0" value="yes"/>
@@ -31,14 +44,14 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Will existing infrastructure (compute, storage, etc.) be modified or retired?" mandatory="true" max_length="40" name="u_modify_infrastructure" type="string">
             <choice>
-                <element label="Yes" sequence="0" value="yes"/>
                 <element label="No" sequence="1" value="no"/>
+                <element label="Yes" sequence="0" value="yes"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Will existing software (installations, integrations) be modified or retired?" mandatory="true" max_length="40" name="u_modify_software" type="string">
             <choice>
-                <element label="Yes" sequence="0" value="yes"/>
                 <element label="No" sequence="1" value="no"/>
+                <element label="Yes" sequence="0" value="yes"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Is more than one team required (including business teams)?" mandatory="true" max_length="40" name="u_more_than_one_team_required" type="string">
@@ -65,17 +78,14 @@
                 <element label="Yes" sequence="0" value="yes"/>
             </choice>
         </element>
-        <element label="# Delivery Teams" mandatory="true" max_length="40" name="u_num_delivery_teams" type="integer"/>
-        <element label="# of Iterations" mandatory="true" max_length="40" name="u_num_iterations" type="integer"/>
-        <element label="# new Contractors" mandatory="true" max_length="40" name="u_num_new_contractors" type="integer"/>
-        <element label="# new FTE" mandatory="true" max_length="40" name="u_num_new_fte" type="integer"/>
-        <element default="0" label="Other costs" mandatory="true" max_length="40" name="u_other_costs" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="4000" name="u_notes" type="journal"/>
         <element attributes="edge_encryption_enabled=true" label="Out of Scope" mandatory="true" max_length="4000" name="u_out_of_scope" type="string"/>
         <element label="Primary Application" mandatory="true" max_length="32" name="u_primary_application" reference="u_application" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Project Background" mandatory="true" max_length="4000" name="u_project_background" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Project Description" mandatory="true" max_length="4000" name="u_project_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Project Name" mandatory="true" max_length="200" name="u_project_name" type="string"/>
         <element label="Requested For" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element label="Sponsor" mandatory="true" max_length="32" name="u_sponsor" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="new" label="State" max_length="40" name="u_state" read_only="true" type="string">
             <choice>
                 <element label="Approved" sequence="2" value="approved"/>
@@ -87,9 +97,15 @@
         </element>
         <element label="Target Delivery Date" mandatory="true" max_length="40" name="u_target_delivery_date" type="glide_date"/>
         <index name="index">
-            <element name="u_requested_for"/>
+            <element name="u_sponsor"/>
         </index>
         <index name="index2">
+            <element name="u_requested_for"/>
+        </index>
+        <index name="index3">
+            <element name="u_customer_group"/>
+        </index>
+        <index name="index4">
             <element name="u_primary_application"/>
         </index>
     </element>

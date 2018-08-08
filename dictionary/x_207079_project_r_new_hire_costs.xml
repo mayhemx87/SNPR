@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="New Hire Costs" max_length="40" name="x_207079_project_r_new_hire_costs" type="collection">
+        <element label="Cost Center" mandatory="true" max_length="32" name="cost_center" reference="cmn_cost_center" type="reference"/>
+        <element label="Hire Rate" mandatory="true" max_length="4" name="hire_rate" type="currency"/>
+        <element choice="1" label="Location" mandatory="true" max_length="40" name="location" type="choice">
+            <choice>
+                <element label="Offshore" sequence="200" value="offshore"/>
+                <element label="Onshore" sequence="100" value="onshore"/>
+            </choice>
+        </element>
+        <element label="Monthly Cost" max_length="5" name="monthly_cost" read_only="true" type="currency"/>
+        <element label="# of FTE" mandatory="true" max_length="2" name="num_fte" type="integer"/>
+        <element label="Project Request" mandatory="true" max_length="32" name="project_request" reference="x_207079_project_r_project_request" type="reference"/>
+        <element choice="1" label="Start Month" mandatory="true" max_length="40" name="start_month" type="choice">
+            <choice>
+                <element label="April" sequence="4" value="4"/>
+                <element label="August" sequence="8" value="8"/>
+                <element label="December" sequence="12" value="12"/>
+                <element label="February" sequence="2" value="2"/>
+                <element label="January" sequence="1" value="1"/>
+                <element label="July" sequence="7" value="7"/>
+                <element label="June" sequence="6" value="6"/>
+                <element label="March" sequence="3" value="3"/>
+                <element label="May" sequence="5" value="5"/>
+                <element label="November" sequence="11" value="11"/>
+                <element label="October" sequence="10" value="10"/>
+                <element label="September" sequence="9" value="9"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="Yearly Cost" max_length="20" name="yearly_cost" read_only="true" type="currency"/>
+        <index name="index">
+            <element name="cost_center"/>
+        </index>
+        <index name="index2">
+            <element name="project_request"/>
+        </index>
+    </element>
+</database>

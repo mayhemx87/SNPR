@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Non Infra Costs" max_length="40" name="x_207079_project_r_non_infra_costs" type="collection">
+        <element attributes="omit_sys_original=true" label="Amount" mandatory="true" max_length="20" name="amount" type="currency"/>
+        <element label="Cost Center" mandatory="true" max_length="32" name="cost_center" reference="cmn_cost_center" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cost Type" max_length="40" name="cost_type" type="string">
+            <choice>
+                <element label="Maintenance" sequence="1" value="maintenance"/>
+                <element label="Other" sequence="4" value="other"/>
+                <element label="Software" sequence="0" value="software"/>
+                <element label="Training" sequence="3" value="training"/>
+                <element label="Travel" sequence="2" value="travel"/>
+            </choice>
+        </element>
+        <element label="Project Request" max_length="32" name="project_request" read_only="true" reference="x_207079_project_r_project_request" type="reference"/>
+        <index name="index">
+            <element name="cost_center"/>
+        </index>
+        <index name="index2">
+            <element name="project_request"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="8d23cc71dbb39700b9877b1cbf96198d" sys_domain="global" table="x_207079_project_r_new_hire_costs" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>num_fte</element>
+            <position>0</position>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-08-08 19:06:47</sys_created_on>
+            <sys_id>78e380f1dbb39700b9877b1cbf961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_207079_project_r_new_hire_costs" sys_domain="global" view="Default view">8d23cc71dbb39700b9877b1cbf96198d</sys_ui_section>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-08-08 19:06:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>1</position>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-08-08 19:06:47</sys_created_on>
+            <sys_id>f8e380f1dbb39700b9877b1cbf961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_207079_project_r_new_hire_costs" sys_domain="global" view="Default view">8d23cc71dbb39700b9877b1cbf96198d</sys_ui_section>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-08-08 19:06:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_center</element>
+            <position>2</position>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-08-08 19:06:47</sys_created_on>
+            <sys_id>7ce380f1dbb39700b9877b1cbf961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_207079_project_r_new_hire_costs" sys_domain="global" view="Default view">8d23cc71dbb39700b9877b1cbf96198d</sys_ui_section>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-08-08 19:06:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-08-08 19:06:47</sys_created_on>
+            <sys_id>fce380f1dbb39700b9877b1cbf961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_207079_project_r_new_hire_costs" sys_domain="global" view="Default view">8d23cc71dbb39700b9877b1cbf96198d</sys_ui_section>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-08-08 19:06:47</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_month</element>
+            <position>4</position>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-08-08 19:06:47</sys_created_on>
+            <sys_id>70e380f1dbb39700b9877b1cbf961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_207079_project_r_new_hire_costs" sys_domain="global" view="Default view">8d23cc71dbb39700b9877b1cbf96198d</sys_ui_section>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-08-08 19:06:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hire_rate</element>
+            <position>5</position>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-08-08 19:06:47</sys_created_on>
+            <sys_id>f0e380f1dbb39700b9877b1cbf961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_207079_project_r_new_hire_costs" sys_domain="global" view="Default view">8d23cc71dbb39700b9877b1cbf96198d</sys_ui_section>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-08-08 19:06:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>monthly_cost</element>
+            <position>6</position>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-08-08 19:06:47</sys_created_on>
+            <sys_id>74e380f1dbb39700b9877b1cbf961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_207079_project_r_new_hire_costs" sys_domain="global" view="Default view">8d23cc71dbb39700b9877b1cbf96198d</sys_ui_section>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-08-08 19:06:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>yearly_cost</element>
+            <position>7</position>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-08-08 19:06:47</sys_created_on>
+            <sys_id>f4e380f1dbb39700b9877b1cbf961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_207079_project_r_new_hire_costs" sys_domain="global" view="Default view">8d23cc71dbb39700b9877b1cbf96198d</sys_ui_section>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-08-08 19:06:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_207079_project_r_new_hire_costs</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-08-08 19:03:32</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>8d23cc71dbb39700b9877b1cbf96198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_207079_project_r_new_hire_costs</sys_name>
+            <sys_overrides display_value="">global</sys_overrides>
+            <sys_package display_value="Project Requests" source="x_207079_project_r">c481b0c94fd213000468f3117310c790</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Project Requests">c481b0c94fd213000468f3117310c790</sys_scope>
+            <sys_update_name>sys_ui_section_8d23cc71dbb39700b9877b1cbf96198d</sys_update_name>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-08-08 19:03:32</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

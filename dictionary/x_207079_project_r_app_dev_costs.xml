@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="App Dev Costs" max_length="40" name="x_207079_project_r_app_dev_costs" type="collection">
+        <element label="Cost Center" mandatory="true" max_length="32" name="cost_center" reference="cmn_cost_center" type="reference"/>
+        <element label="Iteration Cost" max_length="10" name="iteration_cost" read_only="true" type="currency"/>
+        <element default="60,000" label="Monthly Cost" mandatory="true" max_length="7" name="monthly_cost" read_only="true" type="currency"/>
+        <element label="# of Iterations" mandatory="true" max_length="2" name="num_iterations" type="integer"/>
+        <element label="# of Teams" mandatory="true" max_length="2" name="num_teams" type="integer"/>
+        <element label="Project Request" mandatory="true" max_length="32" name="project_request" reference="x_207079_project_r_project_request" type="reference"/>
+        <index name="index">
+            <element name="cost_center"/>
+        </index>
+        <index name="index2">
+            <element name="project_request"/>
+        </index>
+    </element>
+</database>

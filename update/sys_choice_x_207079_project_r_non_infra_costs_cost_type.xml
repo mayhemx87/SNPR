@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="cost_type" table="x_207079_project_r_non_infra_costs" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cost_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Software</label>
+            <language>en</language>
+            <name>x_207079_project_r_non_infra_costs</name>
+            <sequence>0</sequence>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-08-08 19:28:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>86e80c39dbb39700b9877b1cbf961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-08-08 19:28:44</sys_updated_on>
+            <value>software</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cost_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maintenance</label>
+            <language>en</language>
+            <name>x_207079_project_r_non_infra_costs</name>
+            <sequence>1</sequence>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-08-08 19:28:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c6e80c39dbb39700b9877b1cbf961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-08-08 19:28:44</sys_updated_on>
+            <value>maintenance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cost_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Travel</label>
+            <language>en</language>
+            <name>x_207079_project_r_non_infra_costs</name>
+            <sequence>2</sequence>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-08-08 19:28:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>46e80c39dbb39700b9877b1cbf961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-08-08 19:28:44</sys_updated_on>
+            <value>travel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cost_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Training</label>
+            <language>en</language>
+            <name>x_207079_project_r_non_infra_costs</name>
+            <sequence>3</sequence>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-08-08 19:28:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c2e80c39dbb39700b9877b1cbf961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-08-08 19:28:44</sys_updated_on>
+            <value>training</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cost_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_207079_project_r_non_infra_costs</name>
+            <sequence>4</sequence>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-08-08 19:28:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>cee80c39dbb39700b9877b1cbf961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-08-08 19:28:44</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>cost_type</element>
+            <name>x_207079_project_r_non_infra_costs</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>bkolosky</sys_created_by>
+            <sys_created_on>2018-08-08 19:28:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>82e80c39dbb39700b9877b1cbf961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cost_type</sys_name>
+            <sys_package display_value="Project Requests" source="x_207079_project_r">c481b0c94fd213000468f3117310c790</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Project Requests">c481b0c94fd213000468f3117310c790</sys_scope>
+            <sys_update_name>sys_choice_x_207079_project_r_non_infra_costs_cost_type</sys_update_name>
+            <sys_updated_by>bkolosky</sys_updated_by>
+            <sys_updated_on>2018-08-08 19:28:44</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
